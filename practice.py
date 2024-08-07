@@ -19,5 +19,6 @@ projects = {
 
 with st.expander(label=label[0], expanded=False):
     st.subheader(projects["이름"])
+    st.caption("이 가디건은 직접 입으려고 만든 것입니다.")
     st.image(projects["image_url"])
     
