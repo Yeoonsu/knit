@@ -8,6 +8,8 @@ st.markdown("딜로이트에서 열심히 일하고 있는 연수가 streamlit�
 
 label = ["첫번째는 무엇일까요?"]
 
+time.sleep(3)
+
 projects = {
     "이름":"테디울 탑다운 가디건",
     "진행도":"80%",
