@@ -1,5 +1,6 @@
 #!/usr/bin/env python3
 import streamlit as st
+import time
 
 st.set_page_config(page_title="연수의 뜨개옷장")
 
