@@ -16,10 +16,10 @@ projects = {
     "image_url":'image/테디울.jpg'
 }
 
+text = """진행도는 80%. 소매 뜨고 넥밴드 뜨고 단추 달면 완성!"""
+
 with st.expander(label=label[0], expanded=False):
     st.subheader(projects["이름"])
     st.markdown(text)
-    text = """진행도는 80%. 소매 뜨고 넥밴드 뜨고 단추 달면 완성!
-    """
     st.image(projects["image_url"])
     st.caption("이 가디건은 직접 입으려고 만든 것입니다.")    
